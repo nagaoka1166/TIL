@@ -72,4 +72,4 @@ XHTMLはH T M LをX M Lの文法で再定義したもの
 
 
 
-![image](https://user-images.githubusercontent.com/69971830/112006719-53473500-8b67-11eb-9424-0aa2708b703a.png)
+
