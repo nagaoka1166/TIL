@@ -1,6 +1,5 @@
-sum = 0 
-numbers = [1,2,3]
-numbers.each do |number|
-  sum +=  number
+
+numbers = [1,2,3].map do |x|
+  x*3
 end 
- puts sum
+puts numbers
