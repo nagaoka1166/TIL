@@ -1,6 +1,19 @@
-def price(item:, size: "ショート")
-    items = {"コーヒー" => 300, "カフェラテ" => 400}
-    sizes  = {"ショート" => 0, "トール" => 50, "ベンティ" => 100}
-    items[item] + sizes[size]
-end 
-puts  price(item: "コーヒー")
+
+module WhippedCream
+    def whipped_cream
+        @name += "ホイップクリーム" 
+    end
+end
+class Drink
+    include WhippedCream
+    def initialize(name)
+        @name　= name
+    end
+    def name
+     @name
+    end
+end
+
+drink = Drink.new("モカ")
+drink.whipped_cream
+puts drink.name
