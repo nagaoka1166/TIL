@@ -1,19 +1,20 @@
-
-module WhippedCream
-    def whipped_cream
-        @name += "ホイップクリーム" 
-    end
+#１
+module ChocolateChip
+  def chocolate_chip
+      @name += "チョコレートチッピ"
+  end
 end
+#2
 class Drink
-    include WhippedCream
-    def initialize(name)
-        @name　= name
-    end
-    def name
-     @name
-    end
+  include ChocolateChip
+  def initialize(name)
+      @name  = name
+  end
+  def name
+      @name
+  end
 end
 
 drink = Drink.new("モカ")
-drink.whipped_cream
+drink.chocolate_chip
 puts drink.name
