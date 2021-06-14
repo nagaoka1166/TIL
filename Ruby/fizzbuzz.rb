@@ -10,5 +10,3 @@
     puts x
  end
 end
-
-
