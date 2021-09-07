@@ -19,7 +19,7 @@ def janken
     return false
   else 
     puts "0~2の数字を入力してください"
-    return false
+    return true
   end
   end
      
